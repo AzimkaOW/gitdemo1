@@ -1,0 +1,10 @@
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.exe
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.deps.json
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.runtimeconfig.json
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.runtimeconfig.dev.json
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.dll
+C:\Users\Kazna\source\repos\1\1\bin\Debug\netcoreapp3.0\1.pdb
+C:\Users\Kazna\source\repos\1\1\obj\Debug\netcoreapp3.0\1.AssemblyInfoInputs.cache
+C:\Users\Kazna\source\repos\1\1\obj\Debug\netcoreapp3.0\1.AssemblyInfo.cs
+C:\Users\Kazna\source\repos\1\1\obj\Debug\netcoreapp3.0\1.dll
+C:\Users\Kazna\source\repos\1\1\obj\Debug\netcoreapp3.0\1.pdb
