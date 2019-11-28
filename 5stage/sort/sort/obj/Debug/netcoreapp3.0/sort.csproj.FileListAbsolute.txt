@@ -1,0 +1,22 @@
+C:\Users\Kazna\source\repos\sort\sort\obj\Debug\netcoreapp3.0\sort.csprojAssemblyReference.cache
+C:\Users\Kazna\source\repos\sort\sort\obj\Debug\netcoreapp3.0\sort.AssemblyInfoInputs.cache
+C:\Users\Kazna\source\repos\sort\sort\obj\Debug\netcoreapp3.0\sort.AssemblyInfo.cs
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.exe
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.deps.json
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.runtimeconfig.json
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.runtimeconfig.dev.json
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.dll
+C:\Users\Kazna\source\repos\sort\sort\bin\Debug\netcoreapp3.0\sort.pdb
+C:\Users\Kazna\source\repos\sort\sort\obj\Debug\netcoreapp3.0\sort.dll
+C:\Users\Kazna\source\repos\sort\sort\obj\Debug\netcoreapp3.0\sort.pdb
+C:\Users\Kazna\source\repos\5 stage\sort\sort\obj\Debug\netcoreapp3.0\sort.csprojAssemblyReference.cache
+C:\Users\Kazna\source\repos\5 stage\sort\sort\obj\Debug\netcoreapp3.0\sort.AssemblyInfoInputs.cache
+C:\Users\Kazna\source\repos\5 stage\sort\sort\obj\Debug\netcoreapp3.0\sort.AssemblyInfo.cs
+C:\Users\Kazna\source\repos\5 stage\sort\sort\obj\Debug\netcoreapp3.0\sort.dll
+C:\Users\Kazna\source\repos\5 stage\sort\sort\obj\Debug\netcoreapp3.0\sort.pdb
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.exe
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.deps.json
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.runtimeconfig.json
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.runtimeconfig.dev.json
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.dll
+C:\Users\Kazna\source\repos\5 stage\sort\sort\bin\Debug\netcoreapp3.0\sort.pdb
