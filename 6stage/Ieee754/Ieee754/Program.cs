@@ -31,6 +31,14 @@ namespace Ieee754
             {
                 return "0111111111110000000000000000000000000000000000000000000000000000";
             }
+            if (a == 0)
+            {
+                return "0000000000000000000000000000000000000000000000000000000000000000";
+            }
+            if (a == -0)
+            {
+                return "1000000000000000000000000000000000000000000000000000000000000000";
+            }
             // Предустановленные значения 
             string str;
             string znak = "0";
@@ -70,7 +78,7 @@ namespace Ieee754
             {
                 drob = ToBinFrac(a, 23);
                 i = TBF(a, 23);
-                expp = expp - i;
+                expp = expp - i - 1;
                 exp = Convert.ToString(expp, 2);
                 if (exp.Length != 8)
                 {
@@ -156,7 +164,7 @@ namespace Ieee754
         static void Main(string[] args)
         {
             double a;
-            a = 1.625;
+            a = 155.625;
             Console.WriteLine(a.Ieee754());
         }
 
