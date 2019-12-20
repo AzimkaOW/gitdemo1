@@ -2,25 +2,28 @@
 
 namespace _5
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string a, f = "";
-            a = Convert.ToString(Console.ReadLine());
-            char[] arr = a.ToString().ToCharArray();
-            Console.WriteLine(FindNextBiggerNumber(arr, f, a));
+            int a = 12;
+            Console.WriteLine(FindNextBiggerNumber(a));
         }
-        private static string FindNextBiggerNumber(char[] arr, string f, string a)
+        public static int FindNextBiggerNumber(int a)
         {
+            string b = Convert.ToString(a);
+            string f = "";
+            char[] arr = a.ToString().ToCharArray();
             Array.Sort(arr);
             Array.Reverse(arr);
             f = String.Concat<char>(arr);
-            if (f != a)
+            if (f == b)
             {
+                int ots = -1;
+                return ots;
             }
-            else f = "-1";
-            return f;
+            int ot = Convert.ToInt32(f);
+            return ot;
         }
     }
     

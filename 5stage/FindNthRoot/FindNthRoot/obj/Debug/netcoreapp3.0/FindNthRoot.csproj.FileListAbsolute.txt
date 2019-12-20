@@ -9,3 +9,14 @@ C:\Users\Kazna\source\repos\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\Find
 C:\Users\Kazna\source\repos\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.AssemblyInfo.cs
 C:\Users\Kazna\source\repos\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.dll
 C:\Users\Kazna\source\repos\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.pdb
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.exe
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.deps.json
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.runtimeconfig.json
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.runtimeconfig.dev.json
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.dll
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\bin\Debug\netcoreapp3.0\FindNthRoot.pdb
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.csprojAssemblyReference.cache
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.AssemblyInfoInputs.cache
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.AssemblyInfo.cs
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.dll
+C:\Users\Kazna\source\repos\5 stage\FindNthRoot\FindNthRoot\obj\Debug\netcoreapp3.0\FindNthRoot.pdb

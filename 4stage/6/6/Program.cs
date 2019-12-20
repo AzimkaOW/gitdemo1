@@ -2,33 +2,42 @@
 
 namespace _6
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Количество чисел в массиве");
-            int length = Convert.ToInt32(Console.ReadLine());
-            string[] ar = new string [0];
-            int j = 0;
+            int[] numberSourse = { 7, 1, 2, 3, 4, 5, 6, 7, 68, 69, 70, 15, 17 };
+            numberSourse = shodstva(numberSourse);
+            PrintArray(numberSourse);
+        }
+        private static void PrintArray(int[] arr)
+        {
             
-            for (int i = 0; i < length; i++)
-            {
-                string check = Console.ReadLine();
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    Console.Write(arr[j] + " ");
+                }
                 
+            
+
+        }// вывод матрицы
+        public static int[] shodstva(int[] arr)
+        {
+            int j = 0;
+            int[] ar = new int[0];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                string check = Convert.ToString(arr[i]);
+
                 if (check.Contains('7'))
                 {
-                    
+
                     Array.Resize(ref ar, ar.Length + 1);
-                    ar[j] = check;
+                    ar[j] = Convert.ToInt32(check);
                     j++;
                 }
             }
-
-            Console.WriteLine("полученные числа");
-            for (int i = 0; i < j; i++)
-            {
-                Console.WriteLine(ar[i]);
-            }
+            return ar;
         }
     }
 }

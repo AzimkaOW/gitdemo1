@@ -6,24 +6,18 @@ namespace _2
     {
         static void Main(string[] args)
         {
-            int max;
-            int colvo = Convert.ToInt32(Console.ReadLine());
-            int[] array = new int[colvo];
-            
-            array[0] = Convert.ToInt32(Console.ReadLine());
-            max = array[0];
-            for (int i = 1; i < colvo; i++)
+        }
+        public static int Fmax(int[] array)
+        {
+            int max = array[0]; 
+            for (int i = 1; i < array.Length; i++)
             {
-                array[i] = Convert.ToInt32(Console.ReadLine());
-                if (max < array[i]) 
+                if (max < array[i])
                 {
                     max = array[i];
                 }
             }
-
-            Console.WriteLine(max);
-
-
+            return max;
         }
     }
 }

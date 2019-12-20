@@ -3,17 +3,17 @@ using System.Linq;
 
 namespace _4
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string fstr, sstr;
-            fstr = Convert.ToString(Console.ReadLine());
-            sstr = Convert.ToString(Console.ReadLine());
+
+        }
+        public static string concat(string fstr, string sstr)
+        {
             fstr += sstr;
             fstr = new string(fstr.Distinct().ToArray());
-            Console.WriteLine(fstr);
-
+            return fstr;
         }
     }
 }

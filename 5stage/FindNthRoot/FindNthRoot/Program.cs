@@ -2,7 +2,7 @@
 
 namespace FindNthRoot
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace FindNthRoot
         //    return result;
         //}
 
-        static double SqrtN(double A, double n, double eps)
+        public static double SqrtN(double A, double n, double eps)
         {
             int colv = 0;
             double teps = eps;

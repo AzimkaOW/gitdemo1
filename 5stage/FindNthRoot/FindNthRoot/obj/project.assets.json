@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\FindNthRoot\\FindNthRoot\\FindNthRoot.csproj",
+      "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\5 stage\\FindNthRoot\\FindNthRoot\\FindNthRoot.csproj",
       "projectName": "FindNthRoot",
-      "projectPath": "C:\\Users\\Kazna\\source\\repos\\FindNthRoot\\FindNthRoot\\FindNthRoot.csproj",
+      "projectPath": "C:\\Users\\Kazna\\source\\repos\\5 stage\\FindNthRoot\\FindNthRoot\\FindNthRoot.csproj",
       "packagesPath": "C:\\Users\\Kazna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kazna\\source\\repos\\FindNthRoot\\FindNthRoot\\obj\\",
+      "outputPath": "C:\\Users\\Kazna\\source\\repos\\5 stage\\FindNthRoot\\FindNthRoot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kazna\\AppData\\Roaming\\NuGet\\NuGet.Config",

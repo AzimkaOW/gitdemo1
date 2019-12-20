@@ -40,7 +40,7 @@ namespace sort
             
         }// вывод матрицы
 
-        static int[][] BubbleSortSum(int[][] mas, string s)
+        public static int[][] BubbleSortSum(int[][] mas, string s)
         {
             int[] temp;
             int tmp;
@@ -93,7 +93,7 @@ namespace sort
             return mas;
         } // сортировка по сумме с параметрами: матрица, знак(убывание>, возрастание<)
 
-        static int[][] BubbleSortMin_Max(int[][] mas, string s, string z)
+        public static int[][] BubbleSortMin_Max(int[][] mas, string s, string z)
         {
             int[] temp;
             int tmp;

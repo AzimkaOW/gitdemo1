@@ -9,3 +9,14 @@ C:\Users\Kazna\source\repos\6\6\bin\Debug\netcoreapp3.0\6.dll
 C:\Users\Kazna\source\repos\6\6\bin\Debug\netcoreapp3.0\6.pdb
 C:\Users\Kazna\source\repos\6\6\obj\Debug\netcoreapp3.0\6.dll
 C:\Users\Kazna\source\repos\6\6\obj\Debug\netcoreapp3.0\6.pdb
+C:\Users\Kazna\source\repos\4 stage\6\6\obj\Debug\netcoreapp3.0\6.csprojAssemblyReference.cache
+C:\Users\Kazna\source\repos\4 stage\6\6\obj\Debug\netcoreapp3.0\6.AssemblyInfoInputs.cache
+C:\Users\Kazna\source\repos\4 stage\6\6\obj\Debug\netcoreapp3.0\6.AssemblyInfo.cs
+C:\Users\Kazna\source\repos\4 stage\6\6\obj\Debug\netcoreapp3.0\6.dll
+C:\Users\Kazna\source\repos\4 stage\6\6\obj\Debug\netcoreapp3.0\6.pdb
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.exe
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.deps.json
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.runtimeconfig.json
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.runtimeconfig.dev.json
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.dll
+C:\Users\Kazna\source\repos\4 stage\6\6\bin\Debug\netcoreapp3.0\6.pdb

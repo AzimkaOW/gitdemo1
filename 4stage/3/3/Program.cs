@@ -2,53 +2,55 @@
 
 namespace _3
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
+        {
+        }
+        public static int? sumLr(int[] array)
         {
             int fnum = 0;
             int snum = 0;
             int i;
             int z = -1;
-            Console.WriteLine("Кол-во элементов массива");
+            int ind = 0;
             
-            int colvo = Convert.ToInt32(Console.ReadLine());
-            int[] array = new int[colvo];
-            for (i = 0; i < colvo; i++)
+            for (i = 0; i < array.Length; i++)
             {
-                array[i] = Convert.ToInt32(Console.ReadLine());
                 fnum += array[i];
             }
             i--;
             if (snum == (fnum - array[0]))
             {
-                Console.WriteLine(0);
+                ind = 0;
                 z = 1;
             }
             else
             if (snum == (fnum - array[i]))
             {
-                Console.WriteLine(i);
+                ind = i;
                 z = 1;
             }
-            else 
+            else
             {
                 fnum -= array[0];
-                for (i = 1; i < colvo - 1; i++)
+                for (i = 1; i < array.Length - 1; i++)
                 {
                     snum += array[i - 1];
                     fnum -= array[i];
                     if (fnum == snum)
                     {
-                        Console.WriteLine(i);
+                        ind = i;
                         z = 1;
                     }
                 }
             }
             if (z != 1)
             {
-                Console.WriteLine("null");
+                int? indd = null;
+                return indd;
             }
+            return ind;
         }
     }
 }

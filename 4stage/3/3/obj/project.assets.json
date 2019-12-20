@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\3\\3\\3.csproj",
+      "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\4 stage\\3\\3\\3.csproj",
       "projectName": "3",
-      "projectPath": "C:\\Users\\Kazna\\source\\repos\\3\\3\\3.csproj",
+      "projectPath": "C:\\Users\\Kazna\\source\\repos\\4 stage\\3\\3\\3.csproj",
       "packagesPath": "C:\\Users\\Kazna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kazna\\source\\repos\\3\\3\\obj\\",
+      "outputPath": "C:\\Users\\Kazna\\source\\repos\\4 stage\\3\\3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kazna\\AppData\\Roaming\\NuGet\\NuGet.Config",
