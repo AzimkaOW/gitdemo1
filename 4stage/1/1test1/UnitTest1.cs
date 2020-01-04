@@ -10,11 +10,11 @@ namespace _1test1
         public void Test1()
         {
             //arrange
-            int numberSourse = 8;
-            int numberIn = 6;
-            int i = 32 - 0;
-            int j = 32 - 2;
-            int expected = 14;
+            int numberSourse = 15;
+            int numberIn = 15;
+            int i = 0;
+            int j = 0;
+            int expected = 15;
             
             //act
             int actual = _1.Insertnum.InsertNumber(numberSourse, numberIn, i, j);
@@ -27,10 +27,10 @@ namespace _1test1
         {
             //arrange
             int numberSourse = 8;
-            int numberIn = 4;
-            int i = 32 - 0;
-            int j = 32 - 2;
-            int expected = 12;
+            int numberIn = 15;
+            int i = 0;
+            int j = 0;
+            int expected = 9;
 
             //act
             int actual = _1.Insertnum.InsertNumber(numberSourse, numberIn, i, j);
@@ -43,11 +43,11 @@ namespace _1test1
         public void Test3()
         {
             //arrange
-            int numberSourse = 6;
-            int numberIn = 8;
-            int i = 32 - 0;
-            int j = 32 - 2;
-            int expected = 0;
+            int numberSourse = 8;
+            int numberIn = 15;
+            int i = 3;
+            int j = 8;
+            int expected = 120;
 
             //act
             int actual = _1.Insertnum.InsertNumber(numberSourse, numberIn, i, j);

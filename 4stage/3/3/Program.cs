@@ -7,12 +7,12 @@ namespace _3
         static void Main(string[] args)
         {
         }
-        public static int? sumLr(int[] array)
+        public static int? sumLr(double[] array)
         {
-            int fnum = 0;
-            int snum = 0;
+            double fnum = 0;
+            double snum = 0;
             int i;
-            int z = -1;
+            double z = -1;
             int ind = 0;
             
             for (i = 0; i < array.Length; i++)

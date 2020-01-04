@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kazna\\source\\repos\\4 stage\\6\\6\\6.csproj": {}
+    "F:\\repoz\\gitdemo1\\4stage\\6\\6\\6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kazna\\source\\repos\\4 stage\\6\\6\\6.csproj": {
+    "F:\\repoz\\gitdemo1\\4stage\\6\\6\\6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\4 stage\\6\\6\\6.csproj",
+        "projectUniqueName": "F:\\repoz\\gitdemo1\\4stage\\6\\6\\6.csproj",
         "projectName": "6",
-        "projectPath": "C:\\Users\\Kazna\\source\\repos\\4 stage\\6\\6\\6.csproj",
+        "projectPath": "F:\\repoz\\gitdemo1\\4stage\\6\\6\\6.csproj",
         "packagesPath": "C:\\Users\\Kazna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kazna\\source\\repos\\4 stage\\6\\6\\obj\\",
+        "outputPath": "F:\\repoz\\gitdemo1\\4stage\\6\\6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kazna\\AppData\\Roaming\\NuGet\\NuGet.Config",

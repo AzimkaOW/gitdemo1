@@ -31,6 +31,8 @@ namespace _1
 
         public static int InsertNumber(int numberSourse, int numberIn, int i, int j)
         {
+            i = 32 - i;
+            j = 32 - j;
 
             string firstNum = "00000000000000000000000000000000";
             firstNum = firstNum.Remove(32 - Convert.ToString(numberSourse, 2).Length, Convert.ToString(numberSourse, 2).Length);
@@ -39,10 +41,12 @@ namespace _1
             string secondNum = "00000000000000000000000000000000";
             secondNum = secondNum.Remove(32 - Convert.ToString(numberIn, 2).Length, Convert.ToString(numberIn, 2).Length);
             secondNum = secondNum.Insert(32 - Convert.ToString(numberIn, 2).Length, Convert.ToString(numberIn, 2));
+            secondNum = secondNum.Remove(0,i - 1);
+
 
             string returnVal = firstNum;
             returnVal = returnVal.Remove(j - 1, i - j + 1);
-            returnVal = returnVal.Insert(j - 1, secondNum.Substring(j - 1, i - j + 1));
+            returnVal = returnVal.Insert(j - 1, secondNum);
 
             return Convert.ToInt32(returnVal, 2);
         }
