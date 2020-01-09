@@ -13,7 +13,7 @@ namespace _6test6
             int[] actual = { 7, 7, 70, 17 };
 
             //act
-            int[] expected = _6.Program.shodstva(numberSourse);
+            int[] expected = _6.Program.shodstva(numberSourse, 7);
 
             //assert
             CollectionAssert.AreEqual(expected, actual);
