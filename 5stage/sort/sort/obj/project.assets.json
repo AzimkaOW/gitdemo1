@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kazna\\source\\repos\\5 stage\\sort\\sort\\sort.csproj",
+      "projectUniqueName": "F:\\repoz\\gitdemo1\\5stage\\sort\\sort\\sort.csproj",
       "projectName": "sort",
-      "projectPath": "C:\\Users\\Kazna\\source\\repos\\5 stage\\sort\\sort\\sort.csproj",
+      "projectPath": "F:\\repoz\\gitdemo1\\5stage\\sort\\sort\\sort.csproj",
       "packagesPath": "C:\\Users\\Kazna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kazna\\source\\repos\\5 stage\\sort\\sort\\obj\\",
+      "outputPath": "F:\\repoz\\gitdemo1\\5stage\\sort\\sort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kazna\\AppData\\Roaming\\NuGet\\NuGet.Config",
