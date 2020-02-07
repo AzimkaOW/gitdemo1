@@ -20,3 +20,14 @@ C:\Users\Kazna\source\repos\4 stage\5\5\obj\Debug\netcoreapp3.0\5.AssemblyInfoIn
 C:\Users\Kazna\source\repos\4 stage\5\5\obj\Debug\netcoreapp3.0\5.AssemblyInfo.cs
 C:\Users\Kazna\source\repos\4 stage\5\5\obj\Debug\netcoreapp3.0\5.dll
 C:\Users\Kazna\source\repos\4 stage\5\5\obj\Debug\netcoreapp3.0\5.pdb
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.exe
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.deps.json
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.runtimeconfig.json
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.runtimeconfig.dev.json
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.dll
+F:\repoz\gitdemo1\4stage\5\5\bin\Debug\netcoreapp3.0\5.pdb
+F:\repoz\gitdemo1\4stage\5\5\obj\Debug\netcoreapp3.0\5.csprojAssemblyReference.cache
+F:\repoz\gitdemo1\4stage\5\5\obj\Debug\netcoreapp3.0\5.AssemblyInfoInputs.cache
+F:\repoz\gitdemo1\4stage\5\5\obj\Debug\netcoreapp3.0\5.AssemblyInfo.cs
+F:\repoz\gitdemo1\4stage\5\5\obj\Debug\netcoreapp3.0\5.dll
+F:\repoz\gitdemo1\4stage\5\5\obj\Debug\netcoreapp3.0\5.pdb

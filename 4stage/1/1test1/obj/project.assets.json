@@ -6889,19 +6889,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kazna\\.nuget\\packages\\": {}
+    "C:\\Users\\Azimka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\repoz\\gitdemo1\\4stage\\1\\1test1\\1test1.csproj",
+      "projectUniqueName": "D:\\repoz\\gitdemo1\\4stage\\1\\1test1\\1test1.csproj",
       "projectName": "1test1",
-      "projectPath": "F:\\repoz\\gitdemo1\\4stage\\1\\1test1\\1test1.csproj",
-      "packagesPath": "C:\\Users\\Kazna\\.nuget\\packages\\",
-      "outputPath": "F:\\repoz\\gitdemo1\\4stage\\1\\1test1\\obj\\",
+      "projectPath": "D:\\repoz\\gitdemo1\\4stage\\1\\1test1\\1test1.csproj",
+      "packagesPath": "C:\\Users\\Azimka\\.nuget\\packages\\",
+      "outputPath": "D:\\repoz\\gitdemo1\\4stage\\1\\1test1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kazna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Azimka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6914,8 +6914,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "F:\\repoz\\gitdemo1\\4stage\\1\\1\\1.csproj": {
-              "projectPath": "F:\\repoz\\gitdemo1\\4stage\\1\\1\\1.csproj"
+            "D:\\repoz\\gitdemo1\\4stage\\1\\1\\1.csproj": {
+              "projectPath": "D:\\repoz\\gitdemo1\\4stage\\1\\1\\1.csproj"
             }
           }
         }
@@ -6956,12 +6956,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

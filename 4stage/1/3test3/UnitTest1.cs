@@ -9,7 +9,7 @@ namespace _3test3
         public void Test1()
         {
             //arrange
-            int[] numberSourse = { 1, 0, 0, 0, 0, 0, 0};
+            double[] numberSourse = { 1, 0, 0, 0, 0, 0, 0};
             int actual = 0;
 
             //act
@@ -22,7 +22,7 @@ namespace _3test3
         public void Test2()
         {
             //arrange
-            int[] numberSourse = { 1, 0, 0, 1, 0, 0, 1};
+            double[] numberSourse = { 1, 0, 0, 1, 0, 0, 1};
             int actual = 3;
 
             //act
