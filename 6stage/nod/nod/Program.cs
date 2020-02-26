@@ -30,35 +30,55 @@ namespace nod
             Console.WriteLine(MnodBIN(arr));
             Console.WriteLine(MnodEv(arr));
         }// для проверки
+       
+    }
+    public class NOD
+    {
+        delegate int MNodez(int[] arr);
+        delegate int Nod(int a, int b);
+        
+        static int EvklidNod(int[] arr)
+        {
+            MNodez del = MnodEv;
+            return del(arr);
+        }
+        static int BinarNod(int[] arr)
+        {
+            MNodez del = MnodBIN;
+            return del(arr);
+        }
+
+
         static int MnodEv(int[] arr)
         {
+            Nod ez = nod;
             int NOD = 1;
-            NOD = nod(arr[0], arr[1]);
+            NOD = ez(arr[0], arr[1]);
             Array.Sort(arr);
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] % NOD != 0)
                 {
-                    NOD = nod(arr[i], NOD);
+                    NOD = ez(arr[i], NOD);
                 }
             }
             return NOD;
         }// простой Евклид
         static int MnodBIN(int[] arr)
         {
+            Nod ha = binarA;
             int NOD = 1;
-            NOD = nod(arr[0], arr[1]);
+            NOD = ha(arr[0], arr[1]);
             Array.Sort(arr);
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] % NOD != 0)
                 {
-                    NOD = binarA(arr[i], NOD);
+                    NOD = ha(arr[i], NOD);
                 }
             }
             return NOD;
         }// через бинарный метод
-
         static int binarA(int a, int b)
         {
             if (a == b || a == 0)
@@ -87,15 +107,14 @@ namespace nod
         private static void PrintArray(int[] arr)
         {
 
-                for (int j = 0; j < arr.Length; j++)
-                {
-                    Console.Write(arr[j] + " ");
-                }
-                Console.WriteLine();
-            
+            for (int j = 0; j < arr.Length; j++)
+            {
+                Console.Write(arr[j] + " ");
+            }
+            Console.WriteLine();
+
 
         }// вывод матрицы
-
         static int nod(int a, int b)
         {
             while (b != 0)

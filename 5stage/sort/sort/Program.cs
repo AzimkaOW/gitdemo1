@@ -41,18 +41,18 @@ namespace sort
 
         }// вывод матрицы
 
-        delegate int[][] Del(int[][] mas, string s);
-        delegate int[][] Zel(int[][] mas, string s, string z);
+        delegate int[][] Del(int[][] mas, string s); 
+        delegate int[][] Zel(int[][] mas, string s, string z); 
         public static int[][] SortSum(int[][] mas, string s)
         {
             Del del = BubbleSortSum;
             return del(mas, s);
-        }
+        }// сортировка по сумме с параметрами: матрица, знак(убывание>, возрастание<)
         public static int[][] SortMin_Max(int[][] mas, string s, string z)
         {
             Zel del = BubbleSortMin_Max;
             return del(mas, s, z);
-        }
+        }// сортировка по макс/мин элементу с параметрами: матрица, знак(убывание>, возрастание<), макс/мин(max, min)
 
 
         public static int[][] BubbleSortSum(int[][] mas, string s)
