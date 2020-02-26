@@ -5,72 +5,71 @@ namespace geometric_class
 
     public class geometric
     {
+        public double frst = 0;
+        public double sec = 0;
+        public double thr = 0;
+        public double rad = 0;
+    }
         public class Triangle : geometric
         {
-            public double a = 0, b = 0, c = 0;
             public double GetP()
             {
-                double P = a + b + c;
+                double P = sec + thr + frst;
                 return P;
             }
             public double GetS()
             {
                 double p = GetP();
-                double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+                double S = Math.Sqrt(p * (p - sec) * (p - frst) * (p - thr));
                 return S;
-
             }
         }
         public class Circle : geometric
         {
-            public double Rad = 0;
             public double GetP()
             {
-                double P = Rad * 2 * Math.PI;
+                double P = rad * 2 * Math.PI;
                 return P;
             }
             public double GetS()
             {
-                double S = Rad * Rad * Math.PI;
+                double S = rad * rad * Math.PI;
                 return S;
             }
         }
         public class Rectangle : geometric
         {
-            public double lengt = 0;
-            public double hight = 0;
             public double GetP()
             {
-                double P = lengt * 2 + hight * 2;
+                double P = frst * 2 + sec * 2;
                 return P;
             }
             public double GetS()
             {
-                double S = lengt * hight;
+                double S = frst * sec;
                 return S;
             }
         }
         public class Kvadrat : geometric
         {
-            public double lenght = 0;
             public double GetP()
             {
-                double P = lenght * 4;
+                double P = frst * 4;
                 return P;
             }
             public double GetS()
             {
-                double S = lenght * lenght;
+                double S = frst * frst;
                 return S;
             }
 
         }
-    }
+  
     public class Program
     {
         static void Main(string[] args)
         {
-            geometric.Triangle a = new geometric.Triangle { a = 1, b = 2, c = 3 };
+            Triangle a = new Triangle {frst = 1, sec = 2, thr = 3 };
             Console.WriteLine(a.GetP());
         }
     }

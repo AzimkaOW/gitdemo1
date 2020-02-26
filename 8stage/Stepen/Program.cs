@@ -38,15 +38,15 @@ namespace Polynome
             return 0;
         }
 
-        public int[] coefficients;
+        public double[] coefficients;
 
-        public Polynom(params int[] coefficients)
+        public Polynom(params double[] coefficients)
         {
             this.coefficients = coefficients;
         }
         public static Polynom operator *(Polynom polynom1, Polynom polynom2)
         {
-            int[] coeffs = new int[polynom1.coefficients.Length + polynom2.coefficients.Length - 1];
+            double[] coeffs = new double[polynom1.coefficients.Length + polynom2.coefficients.Length - 1];
             for (int i = 0; i < polynom1.coefficients.Length; ++i)
                 for (int j = 0; j < polynom2.coefficients.Length; ++j)
                     coeffs[i + j] += polynom1.coefficients[i] * polynom2.coefficients[j];
@@ -122,6 +122,55 @@ namespace Polynome
             }
             return polynom1;
         }
-
+        public static Polynom operator /(Polynom dividend, Polynom divisor)
+        {
+            double[] quotient;
+            double[] remainder;
+            if (dividend.coefficients.Last() == 0)
+            {
+                throw new ArithmeticException("Старший член многочлена делимого не может быть 0");
+            }
+            if (divisor.coefficients.Last() == 0)
+            {
+                throw new ArithmeticException("Старший член многочлена делителя не может быть 0");
+            }
+            remainder = (double[])dividend.coefficients.Clone();
+            quotient = new double[remainder.Length - divisor.coefficients.Length + 1];
+            for (int i = 0; i < quotient.Length; i++)
+            {
+                double coeff = remainder[remainder.Length - i - 1] / divisor.coefficients.Last();
+                quotient[quotient.Length - i - 1] = coeff;
+                for (int j = 0; j < divisor.coefficients.Length; j++)
+                {
+                    remainder[remainder.Length - i - j - 1] -= coeff * divisor.coefficients[divisor.coefficients.Length - j - 1];
+                }
+            }
+            return new Polynom(quotient);
+        }
+        public static Polynom operator %(Polynom dividend, Polynom divisor)
+        {
+            double[] quotient;
+            double[] remainder;
+            if (dividend.coefficients.Last() == 0)
+            {
+                throw new ArithmeticException("Старший член многочлена делимого не может быть 0");
+            }
+            if (divisor.coefficients.Last() == 0)
+            {
+                throw new ArithmeticException("Старший член многочлена делителя не может быть 0");
+            }
+            remainder = (double[])dividend.coefficients.Clone();
+            quotient = new double[remainder.Length - divisor.coefficients.Length + 1];
+            for (int i = 0; i < quotient.Length; i++)
+            {
+                double coeff = remainder[remainder.Length - i - 1] / divisor.coefficients.Last();
+                quotient[quotient.Length - i - 1] = coeff;
+                for (int j = 0; j < divisor.coefficients.Length; j++)
+                {
+                    remainder[remainder.Length - i - j - 1] -= coeff * divisor.coefficients[divisor.coefficients.Length - j - 1];
+                }
+            }
+            return new Polynom(remainder);
+        }
     }
 }
